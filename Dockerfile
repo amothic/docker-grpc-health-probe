@@ -1,6 +1,6 @@
 FROM alpine as builder
 
-ENV GRPC_HEALTH_PROBE_VERSION v0.3.1
+ENV GRPC_HEALTH_PROBE_VERSION v0.4.4
 
 RUN set -ex \
     && apk add --no-cache curl \
